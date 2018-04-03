@@ -1,0 +1,141 @@
+ul{
+  float: right;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+li{
+  float: left;
+  display: block;
+  text-align: center;
+  padding-left: 15px;
+  text-decoration: none;
+}
+
+h3{
+  margin-top: 2px;
+}
+
+.container{
+  margin: auto;
+  width: 800px;
+}
+div.header{
+  width: 100%;
+  margin-bottom: 5px;
+  height: 25px;
+}
+
+div.header div.logor{
+  width: 50%;
+  text-align: right;
+  float: right;
+}
+
+div.header div.logol{
+  width: 50%;
+  text-align: left;
+  float: left;
+  font-size: 20px;
+  height: 25px;
+  font-weight: bold;
+}
+
+div.line1{
+  width: 100%;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+div.line1 div.bl{
+  background-color: blue;
+  width: 65%;
+  float: left;
+  height: 200px;
+}
+
+div.line1 div.bl div.judul{
+  position: relative;
+  top: 75%;
+  left: 20%;
+  font-size: 20px;
+  background-color: darkblue;
+  width: 50%;
+}
+div.line1 div.yl{
+  float: right;
+  background-color: yellow;
+  width: 30%;
+  height: 200px;
+}
+div.line2{
+  width: 100%;
+  height: 350px;
+  margin-bottom: 20px;
+}
+div.line2 div.l2kiri{
+  width: 65%;
+  float: left;
+}
+div.line2 div.l2kiri div.teks1{
+  width: 47.5%;
+  float: left;
+  text-align: justify;
+}
+
+div.line2 div.l2kiri div.teks2{
+  width: 47.5%;
+  float: right;
+  text-align: justify;
+}
+button{
+  background-color: darkred;
+  border: none;
+}
+div.line2 div.l2kanan{
+  width: 30%;
+  float: right;
+  height: 200px;
+}
+blockquote {
+    font-family: Georgia, serif;
+    position: relative;
+    margin: 0.5em;
+    padding: 4em 2em 0.5em 3em;
+    text-align: center;
+}
+blockquote:before {
+    font-family: Georgia, serif;
+    position: absolute;
+    font-size: 6em;
+    line-height: 1;
+    top: 0;
+    left: 0;
+    content: "\201C";
+    color: green;
+}
+blockquote:after {
+    font-family: Georgia, serif;
+    position: absolute;
+   /* display: block; don't use this, it raised the quote too high from the bottom - defeated line-height? */
+    float:right;
+    font-size:6em;
+    line-height: 1;
+    height: 20px;
+    right:0;
+    bottom: -0.5em;
+    content: "\201D";
+    color: green;
+}
+blockquote footer {
+    padding: 0 2em 0 0;
+    text-align:right;
+}
+blockquote cite:before {
+    content: "\2013";
+}
+div.footer{
+  width: 100%;
+  border-top: 1px solid;
+}
